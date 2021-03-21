@@ -804,9 +804,8 @@ class Service:
 
     def _get_aliases(self, network, container=None):
         return list(
-            {self.name} |
             ({container.short_id} if container else set()) |
-            set(network.get('aliases', ()))
+            set(network.get('aliases', ()) or [self.name])
         )
 
     def build_default_networking_config(self):
