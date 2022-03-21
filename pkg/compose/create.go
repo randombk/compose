@@ -1020,11 +1020,10 @@ func buildTmpfsOptions(tmpfs *types.ServiceVolumeTmpfs) *mount.TmpfsOptions {
 }
 
 func getAliases(s types.ServiceConfig, c *types.ServiceNetworkConfig) []string {
-	aliases := []string{s.Name}
-	if c != nil {
-		aliases = append(aliases, c.Aliases...)
-	}
-	return aliases
+    if c != nil {
+        return c.Aliases
+    }
+    return []string{s.Name}
 }
 
 func (s *composeService) ensureNetwork(ctx context.Context, n types.NetworkConfig) error {
