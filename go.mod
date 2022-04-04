@@ -6,11 +6,11 @@ require (
 	github.com/AlecAivazis/survey/v2 v2.3.2
 	github.com/buger/goterm v1.0.4
 	github.com/cnabio/cnab-to-oci v0.3.1-beta1
-	github.com/compose-spec/compose-go v1.1.0
+	github.com/compose-spec/compose-go v1.2.1
 	github.com/containerd/console v1.0.3
 	github.com/containerd/containerd v1.6.1
 	github.com/distribution/distribution/v3 v3.0.0-20210316161203-a01c71e2477e
-	github.com/docker/buildx v0.8.0
+	github.com/docker/buildx v0.8.2
 	github.com/docker/cli v20.10.12+incompatible
 	github.com/docker/cli-docs-tool v0.4.0
 	github.com/docker/docker v20.10.7+incompatible
@@ -21,7 +21,7 @@ require (
 	github.com/hashicorp/go-version v1.3.0
 	github.com/mattn/go-isatty v0.0.14
 	github.com/mattn/go-shellwords v1.0.12
-	github.com/moby/buildkit v0.10.0-rc2.0.20220308185020-fdecd0ae108b
+	github.com/moby/buildkit v0.10.1-0.20220403220257-10e6f94bf90d
 	github.com/moby/term v0.0.0-20210619224110-3f7ff695adc6
 	github.com/morikuni/aec v1.0.0
 	github.com/opencontainers/go-digest v1.0.0
@@ -94,7 +94,7 @@ require (
 	github.com/qri-io/jsonpointer v0.1.0 // indirect
 	github.com/qri-io/jsonschema v0.1.1 // indirect
 	github.com/sergi/go-diff v1.1.0 // indirect
-	github.com/tonistiigi/fsutil v0.0.0-20220115021204-b19f7f9cb274 // indirect
+	github.com/tonistiigi/fsutil v0.0.0-20220315205639-9ed612626da3 // indirect
 	github.com/tonistiigi/units v0.0.0-20180711220420-6950e57a87ea // indirect
 	github.com/tonistiigi/vt100 v0.0.0-20210615222946-8066bb97264f // indirect
 	github.com/xeipuuv/gojsonpointer v0.0.0-20190905194746-02993c407bfb // indirect
