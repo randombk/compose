@@ -427,9 +427,10 @@ func (s *composeService) prepareContainerMACAddress(ctx context.Context, service
 func getAliases(project *types.Project, service types.ServiceConfig, serviceIndex int, cfg *types.ServiceNetworkConfig, useNetworkAliases bool) []string {
 	aliases := []string{getContainerName(project.Name, service, serviceIndex)}
 	if useNetworkAliases {
-		aliases = append(aliases, service.Name)
 		if cfg != nil {
 			aliases = append(aliases, cfg.Aliases...)
+		} else {
+			aliases = append(aliases, service.Name)
 		}
 	}
 	return aliases
