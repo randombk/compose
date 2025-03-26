@@ -9,7 +9,7 @@ require (
 	github.com/acarl005/stripansi v0.0.0-20180116102854-5a71ef0e047d
 	github.com/buger/goterm v1.0.4
 	github.com/compose-spec/compose-go/v2 v2.4.9
-	github.com/containerd/containerd/v2 v2.0.3
+	github.com/containerd/containerd/v2 v2.0.4
 	github.com/containerd/platforms v1.0.0-rc.1
 	github.com/davecgh/go-spew v1.1.2-0.20180830191138-d8f796af33cc
 	github.com/distribution/reference v0.6.0
@@ -28,7 +28,7 @@ require (
 	github.com/mattn/go-shellwords v1.0.12
 	github.com/mitchellh/go-ps v1.0.0
 	github.com/mitchellh/mapstructure v1.5.0
-	github.com/moby/buildkit v0.20.1
+	github.com/moby/buildkit v0.20.2
 	github.com/moby/patternmatcher v0.6.0
 	github.com/moby/term v0.5.2
 	github.com/morikuni/aec v1.0.0
