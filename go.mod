@@ -15,7 +15,7 @@ require (
 	github.com/distribution/reference v0.6.0
 	github.com/docker/buildx v0.21.2
 	github.com/docker/cli v28.0.1+incompatible
-	github.com/docker/cli-docs-tool v0.9.0
+	github.com/docker/cli-docs-tool v0.10.0
 	github.com/docker/docker v28.0.1+incompatible
 	github.com/docker/go-connections v0.5.0
 	github.com/docker/go-units v0.5.0
